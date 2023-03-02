@@ -31,7 +31,5 @@ describe('Petstore API user Testing', () => {
         cy.get('@loginUser').then(loginUser => {
             expect(loginUser.status).to.eq(200);
         });
-    }
-
-    )
+    })
 })
